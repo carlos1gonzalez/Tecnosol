@@ -1,0 +1,245 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+}
+
+header{
+  display:flex;
+  background-color: hsl(0, 0%, 8%);
+  font-family: 'Epilogue', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: hsl(0, 0%, 41%);
+}
+
+nav {
+  display:flex;
+  flex-direction: row;
+  background-color: hsl(0, 0%, 98%);
+  margin: auto;
+  width: 1440px;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 4em;
+}
+
+.n_izq{
+  display: flex;
+  gap: 42px;
+  margin-left: 4em;
+  margin-top: 1em;
+  align-items: center;
+}
+.menu{
+  display: flex;
+  list-style: none;
+  gap: 42px;
+}
+.menu,
+.botones > li{
+  cursor: pointer;
+  position: relative;
+}
+
+.n_der{
+  margin-right: 4em;
+  margin-top: 1em;
+
+}
+.botones{
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  align-items: center;
+}
+
+#login{
+  font-weight: 500;
+}
+
+#register{
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 7px 14px;
+  border-color: hsl(0, 0%, 41%);;
+
+}
+body{
+  background-color: hsl(0, 0%, 8%);
+}
+
+main{
+  background-color: hsl(0, 0%, 98%);
+  max-width: 1440px;
+  margin: auto;
+  font-family: 'Epilogue', sans-serif;
+  
+}
+
+
+.cuerpo{
+  display: flex;
+}
+
+.secc_l{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 720px;
+  text-align: left;
+  margin: 7em;
+  height: 500px;
+}
+
+h1{
+  font-size: 78px;
+}
+
+p{
+  color: hsl(0, 0%, 41%);
+  padding-top: 2em;
+  width: 463px;
+}
+
+h3{
+  padding:14px 32px;
+  align-self: flex-start;
+  margin-left: 4em;
+ border-color: hsl(0, 0%, 8%);
+ background-color: hsl(0, 0%, 8%);
+ border-style: solid;
+ border-width: 1px;
+ border-radius: 15px;
+ color: hsl(0, 0%, 98%);
+ font-size: 14px;
+ cursor: pointer;
+}
+.secc_r{
+  display: flex;
+  justify-content: flex-start;
+  width: 720px;
+}
+#img_principal{
+  height: 600px;
+}
+
+.logo{
+  display: flex;
+  gap: 50px;
+  align-content: flex-end;
+  padding-top: 2em;
+  height: 50px;
+  width: 463px;
+  }
+
+  .li_features{
+    position: absolute;
+    top:100%;
+    list-style: none;
+    padding: 1em;
+    font-weight: 500;
+    display: none;
+    flex-direction: column;
+    border: 1px solid #FFF;
+    background-color: #FFF;
+    border-radius: 7px;
+    width: 150px;
+  }
+
+  .li_todo{
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+  }
+
+  .li_calendar{
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+  }
+
+  .li_reminders{
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+  }
+
+  .li_planning{
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+  }
+
+  .nav_li:hover > .li_features {
+    display: flex;
+  }
+  
+  .nav_li2:hover > .co_list {
+    display: flex;
+  }
+
+
+  .bt_learn:hover {
+    color: hsl(0, 0%, 8%);
+    background-color:hsl(0, 0%, 98%);
+  }
+
+  .feat:hover{
+    color: hsl(0, 0%, 8%);
+  }
+
+  .co:hover{
+    color: hsl(0, 0%, 8%);
+  }
+  .car:hover{
+    color: hsl(0, 0%, 8%);
+  }
+  .abo:hover{
+    color: hsl(0, 0%, 8%);
+  }
+  #login:hover{
+    color: hsl(0, 0%, 8%);
+  }
+  #register:hover{
+    color: hsl(0, 0%, 8%);
+    border-color: hsl(0, 0%, 8%);
+  }
+  #imagen2:hover{
+    transform: rotate(-180deg);
+  }
+
+  .co_list{
+    position: absolute;
+    top:100%;
+    list-style: none;
+    padding: 1em;
+    font-weight: 500;
+    display: none;
+    flex-direction: column;
+    border: 1px solid #FFF;
+    background-color: #FFF;
+    border-radius: 7px;
+    width: 100px;
+    gap: 10px;
+    }
+
+    .li_hist{
+      padding: 5px;
+    }
+
+    .li_our{
+      padding: 5px;
+    }
+
+    .li_blog{
+      padding: 5px;
+    }
+
+    .active{
+      display: flex;
+    }
+
